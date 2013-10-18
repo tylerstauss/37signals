@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Tyler's CSS starts Here */
+.clearfix {
+	clear: both;
+}
+body {
+	width: 100%;
+	background: url('images/logo-37s-large.png') no-repeat 50% 70px;
+}
+header{
+	padding: 15px;
+	width: 100%;
+	margin-top: 10px;
+}
+header p{
+	color: #aaa;
+	font-size: .85em;
+	float: left;
+	width: 20%;
+	margin-left: 20px;
+}
+
+header ul {
+	float: right;
+
+
+}
+li {
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color: rgb(100,30,170);
+	color: rgba(100,30,170, .9);
+	font-size: .85em;
+	margin-left: 10px;
+}
+li#signin a{
+	margin-right: 35px;
+	color: #18afe0;
+}
+
+li a:hover{
+	color: #6699cc;
+}
+
+#signin a:hover{
+	color: #336699;
+}
+
+.main-content {
+	width: 960px;
+	margin: 0 auto;
+}
+h1, h2 {
+	font-size: 3em;
+	text-align: center;
+	width: 80%;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	margin: 100px auto 35px auto;
+	font-weight: bold;
+	color: #000;
+}
+h2 {
+	font-size: 1.2em;
+	margin: 0 auto;
+	font-weight: normal;
+	margin-bottom: 35px;
+}	
+section {
+	margin: 30px auto;
+	width: 70%;
+}
+
+section a{
+	display: block;
+}
+.center-content {
+	background:	-webkit-linear-gradient(#fefefe, #efefef);
+	background: -moz-linear-gradient(#fefefe, #efefef);
+	background: -ms-linear-gradient(#fefefe, #efefef);
+	background: -o-linear-gradient(#fefefe, #efefef);
+	background: linear-gradient(#fefefe, #efefef);
+	border: 1px solid #eee;
+	height: 240px;
+	margin-left: 40px;
+	width: 180px;
+	border-radius: 5px;
+	float: left;
+	text-decoration: none;
+
+}
+.center-content img {
+	margin: 15px 37.5px 5px;
+}
+section h3{
+	color: #369;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+section .underline {
+	text-decoration: underline;
+}
+
+sup.registered {
+	font-size: 10px;
+	text-decoration: none;
+	position: relative;
+	top: -7px;
+	color: #ccc;
+}
+section h5{
+	color: #cc0000;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+
+}
+section p {
+	padding: 15px 10px;
+	text-align: center;
+	color: #000;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+#hide {
+	height: 150px;
+}
+.hidden {
+	display: none;
+}
+.displayed {
+	display: block;
+}
+
+
+.product h1 {
+	font-size: 2.5em;
+}
+
+.product p {
+	text-align: center;
+	width: 80%;
+	margin-left: 100px;
+	margin-top: -20px;
+	font-size: 1.1em;
+}
+
+#highlight {
+	color: #369;
+	text-decoration: underline;
+}
+
+#arrow1 {
+	position: relative;
+	left: 330px;
+	top: 10px;
+	z-index: 100;
+}
+#arrow2 {
+	position: relative;
+	left: 550px;
+	top: 10px;
+}
+#arrow3 {
+	position: relative;
+	left: 605px;
+	top: 10px;
+}
