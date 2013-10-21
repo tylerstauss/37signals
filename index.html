@@ -5,13 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 	 <script language="javascript" type="text/javascript" src="jquery.js"></script>
 	 <script language="javascript" type="text/javascript" src="application.js"></script>
-
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>37Signals</title>
 
 </head>
 <body>
 	<header>
-		<p>Happy Wednesday.</p>
+		<script type="text/javascript" language="javascript">
+			var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+			var d = new Date();
+			var n = d.getDay();
+			document.write("<p> Happy " + weekday[n] + "</p>");
+		</script>
+		
 		<nav id="mainnav">
 			<ul>
 				<li><a href="http://37signals.com/svn">Company Blog</a></li>
@@ -39,8 +45,8 @@
 					<img id="arrow2" src="images/arrow-left.png">
 			</div>
 			<div class="hidden product" id="right">
-					<h1><span id="highlight">Campfire</span>  remembers the important things about people you’d normally forget.</h1>
-					<p>Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, what was said, and when to follow up next. Over 20,000,000 contacts are tracked using Highrise.</p>	
+					<h1>From near or far, <span id="highlight">Campfire</span> helps teams work together over the web in real-time.</h1>
+					<p>Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room. It’s game changing. We couldn’t run our own business without Campfire.</p>	
 					<img id="arrow3" src="images/arrow-right.png">
 			</div>
 		</div>
